@@ -39,6 +39,6 @@ public class DemoController {
     @RequestMapping(value = "rest", method = RequestMethod.POST)
     public String rest(@RequestBody ServiceInfo serviceInfo) {
 
-        return "Service2:Welcome " + serviceInfo.getName() + " !";
+        return "Service 2 :Welcome " + serviceInfo.getName() + " !";
     }
 }
